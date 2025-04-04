@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <script type="text/javascript" src="login.js"></script>
   </head>
   <body>
     <h1>Login</h1>
     <form action="">
-      ID: <input type="text" /><br />
-      PW: <input type="password" /><br />
-      <input type="button" value="login" />
+      ID: <input id="txt_id" class="login_inputs" type="text" /><br />
+      PW: <input id="txt_pw" class="login_inputs" type="password" /><br />
+      <input id="login_btn" type="button" value="login" onclick="popId()" />
     </form>
   </body>
 </html>

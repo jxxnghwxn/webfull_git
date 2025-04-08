@@ -1,0 +1,25 @@
+{
+  "name": "webfull_git",
+  "version": "1.0.0",
+  "description": "1주차 파트 02 과제\r Readme.md 파일 생성",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxxnghwxn/webfull_git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jxxnghwxn/webfull_git/issues"
+  },
+  "homepage": "https://github.com/jxxnghwxn/webfull_git#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
